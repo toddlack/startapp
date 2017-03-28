@@ -2,9 +2,6 @@
   {{title}}
 </h1>
 <div class="container">
-  <app-servers>app server</app-servers>
-  <app-testcomp></app-testcomp>
-
-  <div class="app-success-alert"></div>
-  <app-warning-alert></app-warning-alert>
+  <label >User Name</label> <input  class="input-lg" type="text" [(ngModel)]="userName">
+  <button class="btn" [disabled]="!userName"   (click)="onResetName()">Reset</button> {{userName}}
 </div>

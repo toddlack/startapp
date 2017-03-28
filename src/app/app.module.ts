@@ -22,7 +22,8 @@ import {SuccessAlertComponent} from "./success-alert/success-alert.component";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule ,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
